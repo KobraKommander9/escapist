@@ -104,6 +104,8 @@ function M.setup(opts)
 		timeout = options.timeout,
 		mappings = get_keys(options.keys),
 	}
+
+	require("escapist.recorder")
 end
 
 setmetatable(M, {
